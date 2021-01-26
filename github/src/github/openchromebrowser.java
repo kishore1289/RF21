@@ -11,5 +11,6 @@ public class openchromebrowser {
 	{
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.google.co.in");
+		driver.quit();
 	}
 }
